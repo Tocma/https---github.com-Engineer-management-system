@@ -147,7 +147,7 @@ public class LogHandler {
     private void configureLogger() throws IOException {
         // ロガーの取得
         logger = Logger.getLogger(LogHandler.class.getName());
-        logger.setLevel(Level.ALL);
+        logger.setLevel(Level.INFO);
 
         // 既存のハンドラをすべて削除
         for (Handler handler : logger.getHandlers()) {
