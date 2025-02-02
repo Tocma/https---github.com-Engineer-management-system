@@ -89,7 +89,7 @@ public class Main {
      * @throws IOException ログの初期化に失敗した場合
      */
     public void initializeLogger() throws IOException {
-        logHandler.initialize("C:/logs");
+        logHandler.initialize("src/logs");
         logHandler.log(Level.INFO, "アプリケーションを開始します");
     }
 
