@@ -4,6 +4,30 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "type": "java",
+            "name": "通常起動",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "エンジニア人材管理システム"
+        },
+        {
+            "type": "java",
+            "name": "テストモード",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "エンジニア人材管理システム",
+            "args": ["--test"]
+        },
+        {
+            "type": "java",
+            "name": "詳細テストモード",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "エンジニア人材管理システム",
+            "args": ["--test", "--verbose"]
+        },
         {
             "type": "java",
             "name": "Current File",
