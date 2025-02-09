@@ -28,7 +28,7 @@ public class MainFrame extends AbstractFrame {
 
     @Override
     protected void customizeFrame() {
-        frame.setTitle("エンジニア情報管理システム");
+        frame.setTitle("エンジニア人材管理");
         initializeMenuBar();
         LogHandler.getInstance().log(java.util.logging.Level.INFO, "メインフレームを初期化しました");
     }

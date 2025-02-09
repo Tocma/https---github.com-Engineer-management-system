@@ -139,7 +139,7 @@ public class TestCoreSystem {
                 JFrame frame = mainFrame.getFrame();
 
                 // フレームの基本属性を検証
-                if (!frame.getTitle().equals("エンジニア人材管理システム")) {
+                if (!frame.getTitle().equals("エンジニア人材管理")) {
                     throw new RuntimeException("フレームのタイトルが不正です");
                 }
 

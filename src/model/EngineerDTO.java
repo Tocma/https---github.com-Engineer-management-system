@@ -21,7 +21,7 @@ import java.util.Objects;
  *
  * <p>
  * 使用例：
- * 
+ *
  * <pre>
  * EngineerDTO engineer = new EngineerDTO();
  * engineer.setId("ID00001");
@@ -34,7 +34,7 @@ import java.util.Objects;
  *
  * @author Nakano
  * @version 1.0.0
- * @since 2025-01-24
+ * @since 2025-02-10
  */
 public class EngineerDTO {
     private String id;
@@ -53,7 +53,7 @@ public class EngineerDTO {
 
     /**
      * ID（社員番号）を取得
-     * 
+     *
      * @return 社員ID
      */
     public String getId() {
@@ -62,7 +62,7 @@ public class EngineerDTO {
 
     /**
      * ID（社員番号）を設定
-     * 
+     *
      * @param id 社員ID
      */
     public void setId(String id) {
@@ -71,7 +71,7 @@ public class EngineerDTO {
 
     /**
      * 氏名を取得
-     * 
+     *
      * @return 氏名
      */
     public String getName() {
@@ -80,7 +80,7 @@ public class EngineerDTO {
 
     /**
      * 氏名を設定
-     * 
+     *
      * @param name 氏名
      */
     public void setName(String name) {
@@ -89,7 +89,7 @@ public class EngineerDTO {
 
     /**
      * 生年月日を取得
-     * 
+     *
      * @return 生年月日
      */
     public Date getBirthDate() {
@@ -98,7 +98,7 @@ public class EngineerDTO {
 
     /**
      * 生年月日を設定
-     * 
+     *
      * @param birthDate 生年月日
      */
     public void setBirthDate(Date birthDate) {
@@ -107,7 +107,7 @@ public class EngineerDTO {
 
     /**
      * エンジニア歴を取得
-     * 
+     *
      * @return エンジニア歴（年数）
      */
     public int getCareer() {
@@ -116,7 +116,7 @@ public class EngineerDTO {
 
     /**
      * エンジニア歴を設定
-     * 
+     *
      * @param career エンジニア歴（年数）
      */
     public void setCareer(int career) {
@@ -125,7 +125,7 @@ public class EngineerDTO {
 
     /**
      * プログラミング言語リストを取得
-     * 
+     *
      * @return プログラミング言語のリスト
      */
     public List<String> getProgrammingLanguages() {
@@ -134,7 +134,7 @@ public class EngineerDTO {
 
     /**
      * プログラミング言語リストを設定
-     * 
+     *
      * @param programmingLanguages プログラミング言語のリスト
      */
     public void setProgrammingLanguages(List<String> programmingLanguages) {
@@ -143,7 +143,7 @@ public class EngineerDTO {
 
     /**
      * 登録日時を取得
-     * 
+     *
      * @return 登録日時
      */
     public Date getRegisteredDate() {
