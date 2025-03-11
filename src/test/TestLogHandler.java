@@ -39,8 +39,8 @@ import util.LogHandler;
  * </pre>
  *
  * @author Nakano
- * @version 1.0.0
- * @since 2025-01-24
+ * @version 2.0.0
+ * @since 2025-03-12
  */
 public class TestLogHandler {
     /** LogHandlerインスタンス */

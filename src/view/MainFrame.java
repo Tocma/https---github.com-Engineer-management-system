@@ -9,8 +9,8 @@ import java.awt.*;
  * パネルの切り替えとメニューバーの管理
  *
  * @author Nakano
- * @version 1.0.0
- * @since 2025-02-10
+ * @version 2.0.0
+ * @since 2025-03-12
  */
 public class MainFrame extends AbstractFrame {
 

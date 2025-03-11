@@ -18,8 +18,8 @@ import util.LogHandler;
  * </p>
  *
  * @author Nakano
- * @version 1.0.0
- * @since 2025-02-10
+ * @version 2.0.0
+ * @since 2025-03-12
  */
 public abstract class AbstractFrame {
 

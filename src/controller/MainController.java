@@ -8,8 +8,8 @@ import view.MainFrame;
  * 画面遷移とイベント処理を統括
  *
  * @author Nakano
- * @version 1.0.0
- * @since 2025-02-10
+ * @version 2.0.0
+ * @since 2025-03-12
  */
 public class MainController {
 
